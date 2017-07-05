@@ -52,7 +52,7 @@ I am speculating based on anecdata here, but I suspect the general anxiety aroun
 1. Due to the mechanics of `git rebase`, merge conflicts are more frequent and seemingly harder to deal with
 2. Previous experiences with loss of work due to a botched interactive rebase and/or force push (more on this is a second).
 
-The merge conflicts one makes sense, since few things enrage programmers quite like a well-timed merge conflict, but you shouldn't let that keep you from rebasing.  Two reasons for this are:
+The merge conflicts one makes sense, since few things enrage programmers quite like a well-timed merge conflict, but you shouldn't let that keep you from rebasing.  Three reasons for this are:
 
 1. If you frequently commit your ongoing work (which you should) and rebase, the probability of having unmanageable merge conflicts goes way down.
 2. If you run into conflicts while rebasing, fix them, and `git rebase --continue`, the rebase will continue to go off without a hitch (there will be a merge commit, but once again it will contain useful information about where the conflict was and how it was resolved).
